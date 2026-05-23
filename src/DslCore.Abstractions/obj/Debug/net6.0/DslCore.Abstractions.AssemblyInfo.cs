@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("DsCore abstraction interfaces for DSL runtime")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b1a12658d3c8b119e8fc5781c845f2dbcde36df")]
 [assembly: System.Reflection.AssemblyProductAttribute("DslCore.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DslCore.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
