@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>DslCore.AST</RootNamespace>
+    <AssemblyName>DslCore.AST</AssemblyName>
+    <PackageId>DslCore.AST</PackageId>
+    <Description>DsCore AST node definitions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DslCore.Abstractions\DslCore.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

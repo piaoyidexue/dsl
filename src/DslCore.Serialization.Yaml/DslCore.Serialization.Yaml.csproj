@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.1;net6.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>DslCore.Serialization.Yaml</RootNamespace>
+    <AssemblyName>DslCore.Serialization.Yaml</AssemblyName>
+    <PackageId>DslCore.Yaml</PackageId>
+    <Description>DsCore YAML serialization support</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DslCore.Abstractions\DslCore.Abstractions.csproj" />
+    <ProjectReference Include="..\DslCore.AST\DslCore.AST.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+D:\Unreal Projects\DSL\src\DslCore.AST\bin\Debug\netstandard2.1\DslCore.AST.deps.json
+D:\Unreal Projects\DSL\src\DslCore.AST\bin\Debug\netstandard2.1\DslCore.AST.dll
+D:\Unreal Projects\DSL\src\DslCore.AST\bin\Debug\netstandard2.1\DslCore.AST.pdb
+D:\Unreal Projects\DSL\src\DslCore.AST\bin\Debug\netstandard2.1\DslCore.Abstractions.dll
+D:\Unreal Projects\DSL\src\DslCore.AST\bin\Debug\netstandard2.1\DslCore.Abstractions.pdb
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.csproj.AssemblyReference.cache
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.AssemblyInfoInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.AssemblyInfo.cs
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.csproj.CoreCompileInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore..C78F0D66.Up2Date
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.dll
+D:\Unreal Projects\DSL\src\DslCore.AST\obj\Debug\netstandard2.1\DslCore.AST.pdb

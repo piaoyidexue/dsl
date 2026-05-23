@@ -1,0 +1,688 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Unreal Projects\\DSL\\samples\\ConsoleSample\\ConsoleSample.csproj": {}
+  },
+  "projects": {
+    "D:\\Unreal Projects\\DSL\\samples\\ConsoleSample\\ConsoleSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\samples\\ConsoleSample\\ConsoleSample.csproj",
+        "projectName": "ConsoleSample",
+        "projectPath": "D:\\Unreal Projects\\DSL\\samples\\ConsoleSample\\ConsoleSample.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\samples\\ConsoleSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\DslCore.Runtime.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\DslCore.Runtime.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\DslCore.Serialization.Yaml.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\DslCore.Serialization.Yaml.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj",
+        "projectName": "DslCore.Abstractions",
+        "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj",
+        "projectName": "DslCore.AST",
+        "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj",
+        "projectName": "DslCore.Compiler",
+        "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Jint": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Jint": {
+              "target": "Package",
+              "version": "[3.0.0-beta-2057, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\DslCore.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\DslCore.Runtime.csproj",
+        "projectName": "DslCore.Runtime",
+        "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\DslCore.Runtime.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Runtime\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Compiler\\DslCore.Compiler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\DslCore.Serialization.Yaml.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\DslCore.Serialization.Yaml.csproj",
+        "projectName": "DslCore.Yaml",
+        "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\DslCore.Serialization.Yaml.csproj",
+        "packagesPath": "C:\\Users\\水滴\\.nuget\\packages\\",
+        "outputPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Serialization.Yaml\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\水滴\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.Abstractions\\DslCore.Abstractions.csproj"
+              },
+              "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj": {
+                "projectPath": "D:\\Unreal Projects\\DSL\\src\\DslCore.AST\\DslCore.AST.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

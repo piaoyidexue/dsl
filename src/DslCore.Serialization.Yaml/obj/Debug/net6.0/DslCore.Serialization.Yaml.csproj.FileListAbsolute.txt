@@ -1,0 +1,17 @@
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.Serialization.Yaml.deps.json
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.Serialization.Yaml.dll
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.Serialization.Yaml.pdb
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.Abstractions.dll
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.AST.dll
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.Abstractions.pdb
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\bin\Debug\net6.0\DslCore.AST.pdb
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.csproj.AssemblyReference.cache
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.AssemblyInfoInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.AssemblyInfo.cs
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.csproj.CoreCompileInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore..F2C0882E.Up2Date
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.dll
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\refint\DslCore.Serialization.Yaml.dll
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\DslCore.Serialization.Yaml.pdb
+D:\Unreal Projects\DSL\src\DslCore.Serialization.Yaml\obj\Debug\net6.0\ref\DslCore.Serialization.Yaml.dll

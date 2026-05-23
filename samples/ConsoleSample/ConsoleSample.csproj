@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleSample</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\DslCore.Abstractions\DslCore.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\DslCore.AST\DslCore.AST.csproj" />
+    <ProjectReference Include="..\..\src\DslCore.Compiler\DslCore.Compiler.csproj" />
+    <ProjectReference Include="..\..\src\DslCore.Runtime\DslCore.Runtime.csproj" />
+    <ProjectReference Include="..\..\src\DslCore.Serialization.Yaml\DslCore.Serialization.Yaml.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\bin\Debug\netstandard2.1\DslCore.Abstractions.deps.json
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\bin\Debug\netstandard2.1\DslCore.Abstractions.dll
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\bin\Debug\netstandard2.1\DslCore.Abstractions.pdb
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.csproj.AssemblyReference.cache
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.AssemblyInfoInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.AssemblyInfo.cs
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.csproj.CoreCompileInputs.cache
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.dll
+D:\Unreal Projects\DSL\src\DslCore.Abstractions\obj\Debug\netstandard2.1\DslCore.Abstractions.pdb
