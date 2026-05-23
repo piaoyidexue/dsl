@@ -129,3 +129,4 @@ D:\Unreal Projects\DSL\test\DslCore.Tests\obj\Debug\net8.0\refint\DslCore.Tests.
 D:\Unreal Projects\DSL\test\DslCore.Tests\obj\Debug\net8.0\DslCore.Tests.pdb
 D:\Unreal Projects\DSL\test\DslCore.Tests\obj\Debug\net8.0\DslCore.Tests.genruntimeconfig.cache
 D:\Unreal Projects\DSL\test\DslCore.Tests\obj\Debug\net8.0\ref\DslCore.Tests.dll
+D:\Unreal Projects\DSL\test\DslCore.Tests\obj\Debug\net8.0\DslCore.Tests.sourcelink.json

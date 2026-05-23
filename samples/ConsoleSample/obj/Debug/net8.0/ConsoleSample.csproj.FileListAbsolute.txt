@@ -29,3 +29,4 @@ D:\Unreal Projects\DSL\samples\ConsoleSample\obj\Debug\net8.0\refint\ConsoleSamp
 D:\Unreal Projects\DSL\samples\ConsoleSample\obj\Debug\net8.0\ConsoleSample.pdb
 D:\Unreal Projects\DSL\samples\ConsoleSample\obj\Debug\net8.0\ConsoleSample.genruntimeconfig.cache
 D:\Unreal Projects\DSL\samples\ConsoleSample\obj\Debug\net8.0\ref\ConsoleSample.dll
+D:\Unreal Projects\DSL\samples\ConsoleSample\obj\Debug\net8.0\ConsoleSample.sourcelink.json
